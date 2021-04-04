@@ -57,8 +57,8 @@ class Boj_2618  {
 	
 	static void calc() {
 		pathA=pathB=0;
-		Point pA= new Point(-1,1,1), pB= new Point(-1,N,N);
-		PriorityQueue<Dist> heap = new PriorityQueue<>();
+//		Point pA= new Point(-1,1,1), pB= new Point(-1,N,N);
+//		PriorityQueue<Dist> heap = new PriorityQueue<>();
 		
 	}
 	public static void main(String[] args) throws IOException{
