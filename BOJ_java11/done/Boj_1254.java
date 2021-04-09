@@ -1,5 +1,4 @@
 package done;
-
 import java.io.*;
 
 class Boj_1254 {

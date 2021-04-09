@@ -1,9 +1,9 @@
-
 package done;
+
 import java.io.*;
 import java.util.*;
 
-class Boj_19532 {
+class Boj11399 {
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	static StringTokenizer st;
 	
@@ -12,20 +12,20 @@ class Boj_19532 {
 	}
 
 	public static void main(String[] args) throws IOException{
-		int a,b,c,d,e,f;
+		int N = stoi(br.readLine());
+		
+		int[] P = new int[N];
 		st = new StringTokenizer(br.readLine());
-		a=stoi(st.nextToken());
-		b=stoi(st.nextToken());
-		c=stoi(st.nextToken());
-		d=stoi(st.nextToken());
-		e=stoi(st.nextToken());
-		f=stoi(st.nextToken());
+		for(int i=0; i<N; i++) 
+			P[i] = stoi(st.nextToken());		
+		Arrays.sort(P);
 		
-		int denominator = a*e-b*d;
-		int x = (c*e-b*f)/denominator;
-		int y = (a*f-c*d)/denominator;
+		int time=0;
 		
-		System.out.printf("%d %d\n", x,y);
+		for(int i=0; i<N; i++)
+			time += (N-i)*P[i];
+		
+		System.out.println(time);
 	}
 
 }
