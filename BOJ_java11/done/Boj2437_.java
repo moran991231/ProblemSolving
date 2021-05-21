@@ -1,8 +1,8 @@
-package main;
+package done;
 
 import java.io.*;
 
-class Boj2437 {
+class Boj2437_ {
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	static StringBuilder sb = new StringBuilder();
 
