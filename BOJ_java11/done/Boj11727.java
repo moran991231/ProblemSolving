@@ -1,7 +1,8 @@
+package done;
 import java.io.*;
 import java.util.*;
 
-class Boj11726 {
+class Boj11727 {
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	static final int MOD=10007;
 	static int[] dp ;
@@ -13,9 +14,9 @@ class Boj11726 {
 	static void makeDP() {
 		dp = new int[1001];
 		dp[1]=1;
-		dp[2]=2;
+		dp[2]=3;
 		for(int n=3; n<=1000;n++) {
-			dp[n]= (dp[n-1]+dp[n-2])%MOD;
+			dp[n]= (dp[n-1]+dp[n-2]*2)%MOD;
 		}
 	}
 	public static void main(String[] args) throws IOException {
