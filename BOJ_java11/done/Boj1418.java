@@ -4,7 +4,7 @@ package done;
 import java.io.*;
 import java.util.*;
 
-class Boj1418 {
+class Boj1418_ {
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();

@@ -1,7 +1,8 @@
+package done;
 import java.io.*;
 import java.util.*;
 
-class BOj2666 {
+class Boj2666 {
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
