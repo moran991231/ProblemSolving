@@ -1,8 +1,7 @@
-
 import java.io.*;
 import java.util.*;
 
-class Main__ {
+class Main {
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
@@ -13,7 +12,6 @@ class Main__ {
 
 	public static void main(String[] args) throws IOException {
 		sb.setLength(0);
-		System.out.println("hello world");
 
 	}
 }
