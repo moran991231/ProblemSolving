@@ -3,7 +3,7 @@ package round7;
 import java.io.*;
 import java.util.*;
 
-class Main_____ {
+class Boj17614 {
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
