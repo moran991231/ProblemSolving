@@ -8,7 +8,11 @@ class Main {
     static StringTokenizer st;
     static StringBuilder sb;
 
-    public static void main(String[] args) {
+    static int stoi(String s) {
+        return Integer.parseInt(s);
+    }
+
+    public static void main(String[] args) throws IOException {
 
     }
 }
