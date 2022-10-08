@@ -6,17 +6,24 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "Launch Main_",
       "request": "launch",
       "mainClass": "Main_",
-      "projectName": ""
+      "projectName": "Myproject"
     },
     {
       "type": "java",
       "name": "Launch Main",
       "request": "launch",
       "mainClass": "Main",
-      "projectName": ""
+      "projectName": "Myproject"
     },
     {
       "type": "java",
